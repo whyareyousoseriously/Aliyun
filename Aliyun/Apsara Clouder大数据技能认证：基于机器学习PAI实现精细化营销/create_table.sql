@@ -1,0 +1,22 @@
+CREATE TABLE if not exists dw_cust_data_should_dd 
+	(call_id STRING,
+	age_range STRING,
+	gender STRING,
+	brand string,
+	district STRING,
+	open_date datetime,
+	join_month bigint,
+	arpu_jan DOUBLE,
+	arpu_feb DOUBLE,
+	arpu_mar DOUBLE,
+	arpu_apr DOUBLE,
+	arpu_may DOUBLE,
+	arpu_jun DOUBLE,
+	arpu_jul DOUBLE,
+	arpu_aug DOUBLE,
+	apru_sep DOUBLE,
+	arpu_num bigint,
+	total_arpu DOUBLE,
+	total_mou DOUBLE,
+	total_data DOUBLE
+) comment '实验用表';
